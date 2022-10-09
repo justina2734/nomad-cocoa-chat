@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link href="css/styles8.css" rel="stylesheet"/>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+            <div class="status-bar_column">
+                <span class="service">No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar_column">
+                <span class="time">09:27</span>
+            </div>
+            <div class="status-bar_column">
+                <span class="charge">100%</span>
+                <i class="fa-solid fa-battery-full fa-xl"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header_column">
+            <a href="chats.html">
+                <i class="fa-solid fa-chevron-left fa-xl"></i>
+            </a>  
+        </div>
+        <div class="alt-header_column">
+            <h1 class="alt-header_title">장만월</h1>
+        </div>
+        <div class="alt-header_column">
+            <span>
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+          <div class="chat_timestamp">
+            2022년 9월 18일
+          </div>
+          <div class="message-row">
+             <img src="https://file.mk.co.kr/meet/neds/2019/07/image_readtop_2019_521505_15631541753826817.jpg"/>
+             <div class="message-row_content">
+                <span class="message_author">장만월</span>
+                <div class="message_info">
+                    <span class="message_bubble">안녕</span>
+                    <span class="message_time">05:16</span>
+                </div>
+              </div>
+          </div>
+          <div class="message-row message-row--own">
+            <div class="message-row_content">
+               <div class="message_info">
+                   <span class="message_bubble">잘 지내 장만월</span>
+                   <span class="message_time">05:16</span>
+               </div>
+             </div>
+         </div>
+         <div class="message-row">
+            <img src="https://file.mk.co.kr/meet/neds/2019/07/image_readtop_2019_521505_15631541753826817.jpg"/>
+            <div class="message-row_content">
+               <span class="message_author">장만월</span>
+               <div class="message_info">
+                   <span class="message_bubble">넌 0순위야. <br>내마음에 쏙 들었으니까.</span>
+                   <span class="message_time">05:16</span>
+               </div>
+             </div>
+         </div>
+    </main>
+    <form class="reply">
+        <div class="reply_column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply_column">
+            <input type="text" placeholder="Write a message"/>
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            
+        </div>
+    </form>
+    <script src="https://kit.fontawesome.com/43567d3855.js" crossorigin="anonymous"></script>
+</body>
+</html>

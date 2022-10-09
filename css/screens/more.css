@@ -1,0 +1,26 @@
+.more-screen .icon-row{
+    margin-top: 30px;
+}
+.more-suggestions{
+    margin: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+.more-suggestions_title{
+    margin-bottom: 30px;
+}
+.more-suggestions_icon-image{
+    display: flex;
+    flex-direction: column;
+}
+.more-suggestions_icon-image-uaena{
+    width: 60px;
+    height: 60px;
+     margin-bottom: 10px;
+}
+.more-suggestions_icons{
+    display: flex;
+}
+.more-suggestions_icon-text{
+    font-size: 12px;
+}
